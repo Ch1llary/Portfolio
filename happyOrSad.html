@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy or Sad?</title>
+    <!--Hillary Lim
+    CISW 17
+    Happy or Sad?-->
+<style>
+body {
+    max-width: 700px;
+    margin: auto;
+    background-color: #ffd07f;  
+    color: black;
+    font-size: 20px;
+}
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <h1>How are you feeling right now?</h1>
+    <p>
+        <button
+            onclick="document.getElementById('happyOrSad').src='istockphoto-953069774-612x612.jpg'">
+            I'm feeling happy.</button>
+        <button/z
+            onclick="document.getElementById('happyOrSad').src='finePanda.jpeg'"">
+            I'm feeling fine.</button>
+        <button
+            onclick="document.getElementById('happyOrSad').src='Sad Dog.jpeg'">
+            I'm feeling sad.</button>
+    </p>
+    <p>
+        <!--Change this when the buttons are pushed-->
+        <!--We need to give the img an ID so we can target it-->
+
+        <img id="happyOrSad" src="emotions.png" width="500px">
+    </p>
+
+</body>
+
+
+</html>
